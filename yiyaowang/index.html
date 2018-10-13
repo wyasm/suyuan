@@ -1,0 +1,1710 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/base.css" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="lib/jquery-sy/jquery-sy.css" />
+    </head>
+    <body>
+    <div id="all">
+        <div id="top">
+            <div class="container">
+                <div class="place"><span>送货至
+                    <span class="topplace">广东</span>
+                    <i class="icon icon-jiantoukx"></i></span>
+                    <ul>
+                        <li>A<a href="#">安徽</a></li>
+                        <li>B<a href="#">北京</a></li>
+                        <li>C<a href="#">重庆</a></li>
+                        <li>G<a href="#">广东</a>
+                        <a href="#">广西</a>
+                        <a href="#">贵州</a>
+                        <a href="#">甘肃</a></li>
+                        <li>F<a href="#">福建</a></li>
+                        <li>H<a href="#">河北</a>
+                        <a href="#">黑龙江</a>
+                        <a href="#">海南</a>
+                        <a href="#">湖北</a>
+                        <a href="#">湖南</a>
+                        <a href="#">河南</a>
+                        </li>
+                        <li>J<a href="#">江苏</a>
+                        <a href="#">吉林</a>
+                        <a href="#">江西</a></li>
+                        <li>L<a href="#">辽宁</a></li>
+                        <li>N<a href="#">内蒙古</a><a href="#">宁夏</a></li>
+                        <li>Q<a href="#">青海</a></li>
+                        <li>S<a href="#">上海</a><a href="#"></a>
+                        <a href="#">山东</a>
+                        <a href="#">山西</a>
+                        <a href="#">四川</a>
+                        <a href="#">陕西</a></li>
+                        <li>T<a href="#">天津</a></li>
+                        <li>X<a href="#">西藏</a><a href="#">新疆</a></li>
+                        <li>Y<a href="#">云南</a></li>
+                        <li>Z<a href="#">浙江</a></li>
+                    </ul>
+                </div>
+                <ul class="topr fr">
+                    <li><span class="loginbox"><a href="html/login.html" >请登录</a><a href="html/registe.html">注册</a></span></li>
+                    <li><span><a href="html/cart.html">我的订单</a></span></li>
+                    <li class="toprt">
+                        <span><a href="html/cart.html">我的1药网 </a><i class="icon icon-jiantoukx"></i></span>
+                        <ul>
+                            <li><a href="#">我的优惠券</a></li>
+                            <li><a href="#">我的收藏夹</a></li>
+                            <li><a href="#">商品评价</a></li>
+                            <li><a href="#">我的私人订制</a></li>
+                        </ul>
+                    </li>
+                    <li><span><a href="#">帮助中心</a></span></li>
+                    <li><span>400-007-0958</span></li>
+                    <li><span><a href="#"><i class="icon icon-shouji"></i>手机APP</a></span></li>
+                </ul>
+            </div>
+        </div>
+        <div id="search">
+            <div class="container">
+                <img src="images/1.jpg" />
+                <h1>壹药网</h1>
+                <a class="logo fl" href="#"></a>
+                <div class="searchc fl">
+                    <input type="text" placeholder="请输入商品名、症状、人群等" />
+                    <div onclick = "window.location.href='html/goodlist.html'"><i class="icon2 icon2-fangdajing"></i></div>
+                    <ul>
+                        <li><a href="#">奥利斯他</a></li>
+                        <li><a href="#">益阿宁丸</a></li>
+                        <li><a href="#">逍遥丸</a></li>
+                        <li><a href="#">补肺丸</a></li>
+                        <li><a href="#">妇炎洁</a></li>
+                        <li><a href="#">温度计</a></li>
+                        <li><a href="#">护理液</a></li>
+                    </ul>
+                </div>
+                <div class="erweima fr">
+                    <img src="images/3.png" />
+                    <div class="toubucart">
+                        <i class="icon icon-gouwuche"></i><i class="gouwuche">0</i><span onclick = "window.location.href='html/cart.html'">购物车</span><i class="icon icon-jiantouky"></i>
+                    </div>
+                    <div id="minicart_list" class="minicart_list">
+                        <div class="list_detail">
+                            <ul style="display:block;" class="cartgoods"></ul>
+                            <div class="checkout_box">
+                                <p class="clearfix">
+                                    <span class="fl"> 共<em class="fstrong zongshu">7</em>件商品</span><span class="fr">合计：￥<em class="fstrong zongjia">289.7</em></span>
+                                </p>    
+                                <p id="miniCart_p2" style="display: none;">
+                                    <span style="color: gray;"> 满百免运费 </span>
+                                </p>
+                                <a rel="nofollow" class="checkout_btn fr" href="html/cart.html" target="_self"> 去结算 </a>
+                            </div>
+                            <div class="none_tips">
+                                <i></i>
+                                <p>&nbsp;&nbsp;&nbsp;您的购物车里还没有商品，立刻去购买吧。</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="nav">
+            <div class="container">
+                <ul class="nav1">
+                    <li>
+                        <a href="#" class="white">所有商品分类</a>
+                        <ul class="nav2">
+                            <li>
+                                <i class="icon icon-jiaonang"></i>
+                                <a href="html/goodlist.html">中西药品</a>
+                                <div class="nav3">
+                                    <div class="nav31">
+                                        <dl>
+                                            <dt><a href="#">男性疾病</a></dt>
+                                            <dd><a href="#">阳痿早泄</a></dd>
+                                            <dd><a href="#">男性不孕症</a></dd>
+                                            <dd><a href="#">前列腺炎</a></dd>
+                                            <dd><a href="#">肾病</a></dd>
+                                            <dd><a href="#">泌尿系统疾病</a></dd>
+                                            <dd><a href="#">补肾</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">滋养调养</a></dt>
+                                            <dd><a href="#">补气补血</a></dd>
+                                            <dd><a href="#">补肾补阳</a></dd>
+                                            <dd><a href="#">减肥瘦身</a></dd>
+                                            <dd><a href="#">增强免疫力</a></dd>
+                                            <dd><a href="#">安眠助眠</a></dd>
+                                            <dd><a href="#">免疫调节</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">心脑血管</a></dt>
+                                            <dd><a href="#">高血压</a></dd>
+                                            <dd><a href="#">脑血管病</a></dd>
+                                            <dd><a href="#">冠心病</a></dd>
+                                            <dd><a href="#">高血脂</a></dd>
+                                            <dd><a href="#">心绞痛</a></dd>
+                                            <dd><a href="#">静脉舒张</a></dd>
+                                            <dd><a href="#">心力衰竭</a></dd>
+                                            <dd><a href="#">血液病</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">神经系统</a></dt>
+                                            <dd><a href="#">抑郁症</a></dd>
+                                            <dd><a href="#">癫痫</a></dd>
+                                            <dd><a href="#">帕金森</a></dd>
+                                            <dd><a href="#">精神分裂症</a></dd>
+                                            <dd><a href="#">老年痴呆</a></dd>
+                                            <dd><a href="#">中风</a></dd>
+                                            <dd><a href="#">神经性疼痛</a></dd>
+                                            <dd><a href="#">多动症</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">内分泌科</a></dt>
+                                            <dd><a href="#">糖尿病</a></dd>
+                                            <dd><a href="#">甲状腺疾病</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav32">
+                                        <dl>
+                                            <dt><a href="#">风湿骨科</a></dt>
+                                            <dd><a href="#">风湿类风湿</a></dd>
+                                            <dd><a href="#">骨关节炎</a></dd>
+                                            <dd><a href="#">跌打骨伤</a></dd>
+                                            <dd><a href="#">腰椎病</a></dd>
+                                            <dd><a href="#">骨质疏松</a></dd>
+                                            <dd><a href="#">通风</a></dd>
+                                            <dd><a href="#">外用贴膏</a></dd>
+                                            <dd><a href="#">器官移植</a></dd>
+                                            <dd><a href="#">骨质增生</a></dd>
+                                            <dd><a href="#">股骨头坏死</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">皮肤病</a></dt>
+                                            <dd><a href="#">皮炎廯症</a></dd>
+                                            <dd><a href="#">脱发</a></dd>
+                                            <dd><a href="#">银屑病</a></dd>
+                                            <dd><a href="#">痤疮</a></dd>
+                                            <dd><a href="#">白癜风</a></dd>
+                                            <dd><a href="#">尖锐湿疣</a></dd>
+                                            <dd><a href="#">黄褐斑</a></dd>
+                                            <dd><a href="#">疤痕</a></dd>
+                                            <dd><a href="#">灰指甲</a></dd>
+                                            <dd><a href="#">疱疹</a></dd>
+                                            <dd><a href="#">烧烫创伤</a></dd>
+                                            <dd><a href="#">过敏</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">呼吸道疾病</a></dt>
+                                            <dd><a href="#">感冒发烧</a></dd>
+                                            <dd><a href="#">咳嗽</a></dd>
+                                            <dd><a href="#">上火</a></dd>
+                                            <dd><a href="#">小儿感冒</a></dd>
+                                            <dd><a href="#">哮喘</a></dd>
+                                            <dd><a href="#">支气管炎</a></dd>
+                                            <dd><a href="#">慢性阻塞性肺疾病</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">肝病科</a></dt>
+                                            <dd><a href="#">乙肝</a></dd>
+                                            <dd><a href="#">保肝护肝</a></dd>
+                                            <dd><a href="#">胆结石</a></dd>
+                                            <dd><a href="#">免疫调节</a></dd>
+                                            <dd><a href="#">肝纤维化肝硬化</a></dd>
+                                            <dd><a href="#">胆道疾病</a></dd>
+                                            <dd><a href="#">脂肪肝</a></dd>
+                                        </dl>    
+                                    </div>
+                                    <div class="nav33">
+                                        <dl>
+                                            <dt><a href="#">消化系统疾病</a></dt>
+                                            <dd><a href="#">胃炎</a></dd>
+                                            <dd><a href="#">胃肠溃烂</a></dd>
+                                            <dd><a href="#">结肠炎</a></dd>
+                                            <dd><a href="#">消化不良</a></dd>
+                                            <dd><a href="#">便秘</a></dd>
+                                            <dd><a href="#">腹泻</a></dd>
+                                            <dd><a href="#">痔疮</a></dd>
+                                            <dd><a href="#">小儿肠胃病</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">五官科疾病</a></dt>
+                                            <dd><a href="#">鼻炎</a></dd>
+                                            <dd><a href="#">咽喉炎</a></dd>
+                                            <dd><a href="#">眼干眼涩</a></dd>
+                                            <dd><a href="#">眼部炎症</a></dd>
+                                            <dd><a href="#">白内障</a></dd>
+                                            <dd><a href="#">青光眼</a></dd>
+                                            <dd><a href="#">耳聋耳鸣</a></dd>
+                                            <dd><a href="#">口腔溃疡</a></dd>
+                                            <dd><a href="#">牙周疼痛</a></dd>
+                                            <dd><a href="#">视网膜病变</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">妇科疾病</a></dt>
+                                            <dd><a href="#">阴道炎</a></dd>
+                                            <dd><a href="#">月经不调</a></dd>
+                                            <dd><a href="#">避孕</a></dd>
+                                            <dd><a href="#">保胎促孕</a></dd>
+                                            <dd><a href="#">更年期</a></dd>
+                                            <dd><a href="#">子宫疾病</a></dd>
+                                            <dd><a href="#">乳腺疾病</a></dd>
+                                            <dd><a href="#">盆腔炎</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">肿瘤科</a></dt>
+                                            <dd><a href="#">肺癌</a></dd>
+                                            <dd><a href="#">肝癌</a></dd>
+                                            <dd><a href="#">胃癌</a></dd>
+                                            <dd><a href="#">食道癌</a></dd>
+                                            <dd><a href="#">淋巴癌</a></dd>
+                                            <dd><a href="#">白血病</a></dd>
+                                            <dd><a href="#">乳腺癌</a></dd>
+                                            <dd><a href="#">化疗提高营养</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav34">
+                                        <img src="images/4.jpg" />
+                                        <img src="images/5.jpg" />
+                                    </div>     
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon icon-pingzi"></i>
+                                <a href="html/goodlist.html">滋养保健</a>
+                                <div class="nav3">
+                                    <div class="nav31">
+                                        <dl>
+                                            <dt><a href="#">热门推荐</a></dt>
+                                            <dd><a href="#">DHA</a></dd>
+                                            <dd><a href="#">减肥</a></dd>
+                                            <dd><a href="#">补肾</a></dd>
+                                            <dd><a href="#">阿胶</a></dd>
+                                            <dd><a href="#">软骨素</a></dd>
+                                            <dd><a href="#">益生菌</a></dd>
+                                            <dd><a href="#">辅酶Q10</a></dd>
+                                            <dd><a href="#">蛋白粉</a></dd>
+                                            <dd><a href="#">助眠</a></dd>
+                                            <dd><a href="#">汤臣倍健</a></dd>
+                                            <dd><a href="#">碧生源</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">强壮男人</a></dt>
+                                            <dd><a href="#">补肾强身</a></dd>
+                                            <dd><a href="#">前列腺养护</a></dd>
+                                            <dd><a href="#">解酒护肝</a></dd>
+                                            <dd><a href="#">缓解疲劳</a></dd>
+                                            <dd><a href="#">增肌强身</a></dd>
+                                            <dd><a href="#">番茄红素</a></dd>
+                                            <dd><a href="#">淫羊藿</a></dd>
+                                            <dd><a href="#">牡蛎</a></dd>
+                                            <dd><a href="#">海狗</a></dd>
+                                            <dd><a href="#">玛卡</a></dd>
+                                            <dd><a href="#">袋鼠精</a></dd>
+                                            <dd><a href="#">西洋参</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">美丽女人</a></dt>
+                                            <dd><a href="#">减肥瘦身</a></dd>
+                                            <dd><a href="#">润肠通便</a></dd>
+                                            <dd><a href="#">补血补气</a></dd>
+                                            <dd><a href="#">美白祛斑</a></dd>
+                                            <dd><a href="#">调经养颜</a></dd>
+                                            <dd><a href="#">酵素</a></dd>
+                                            <dd><a href="#">左旋肉碱</a></dd>
+                                            <dd><a href="#">葡萄籽</a></dd>
+                                            <dd><a href="#">胶原蛋白</a></dd>
+                                            <dd><a href="#">大豆异黄酮</a></dd>
+                                            <dd><a href="#">阿胶</a></dd>
+                                            <dd><a href="#">燕窝</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav32">
+                                        <dl>
+                                            <dt><a href="#">健康老人</a></dt>
+                                            <dd><a href="#">增强免疫</a></dd>
+                                            <dd><a href="#">降低血脂</a></dd>
+                                            <dd><a href="#">降低血糖</a></dd>
+                                            <dd><a href="#">调节血压</a></dd>
+                                            <dd><a href="#">保护骨骼</a></dd>
+                                            <dd><a href="#">调节睡眠 </a></dd>
+                                            <dd><a href="#">调节肠胃 </a></dd>
+                                            <dd><a href="#">鱼油</a></dd>
+                                            <dd><a href="#">辅酶Q10</a></dd>
+                                            <dd><a href="#">灵芝孢子</a></dd>
+                                            <dd><a href="#">三七粉</a></dd>
+                                            <dd><a href="#">褪黑素</a></dd>
+                                            <dd><a href="#">蛋白粉</a></dd>
+                                            <dd><a href="#">益生菌</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">妇婴保健</a></dt>
+                                            <dd><a href="#">DHA </a></dd>
+                                            <dd><a href="#">鱼肝油</a></dd>
+                                            <dd><a href="#">奶粉</a></dd>
+                                            <dd><a href="#">儿童钙片</a></dd>
+                                            <dd><a href="#">儿童益生菌</a></dd>
+                                            <dd><a href="#">备孕食品</a></dd>
+                                            <dd><a href="#">合生元</a></dd>
+                                            <dd><a href="#">妈咪爱</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">职场保健</a></dt>
+                                            <dd><a href="#">缓解疲劳</a></dd>
+                                            <dd><a href="#">改善睡眠</a></dd>
+                                            <dd><a href="#">增强免疫</a></dd>
+                                            <dd><a href="#">保护视力</a></dd>
+                                            <dd><a href="#">调理肠胃</a></dd>
+                                            <dd><a href="#">蛋白粉</a></dd>
+                                            <dd><a href="#">西洋参</a></dd>
+                                            <dd><a href="#">叶黄素</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav33">
+                                        <dl>
+                                            <dt><a href="#">营养礼盒</a></dt>
+                                            <dd><a href="#">蛋白粉</a></dd>
+                                            <dd><a href="#">氨基酸</a></dd>
+                                            <dd><a href="#">螺旋藻</a></dd>
+                                            <dd><a href="#">灵芝孢子</a></dd>
+                                            <dd><a href="#">脑白金</a></dd>
+                                            <dd><a href="#">昂立多邦</a></dd>
+                                            <dd><a href="#">太太口服液</a></dd>
+                                            <dd><a href="#">生命一号</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">热门品牌</a></dt>
+                                            <dd><a href="#">汤臣倍健</a></dd>
+                                            <dd><a href="#">碧生源</a></dd>
+                                            <dd><a href="#">修正</a></dd>
+                                            <dd><a href="#">同仁堂</a></dd>
+                                            <dd><a href="#">姿美堂</a></dd>
+                                            <dd><a href="#">康恩贝</a></dd>
+                                            <dd><a href="#">纽曼思</a></dd>
+                                            <dd><a href="#">太太</a></dd>
+                                            <dd><a href="#">合生元</a></dd>
+                                            <dd><a href="#">香丹清</a></dd>
+                                            <dd><a href="#">永安康健</a></dd>
+                                            <dd><a href="#">Swisse Move Free GNC</a></dd>
+                                            <dd><a href="#">澳佳宝</a></dd>
+                                            <dd><a href="#">普丽普莱</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav34">
+                                        <img src="images/6.jpg" />
+                                        <img src="images/7.jpg" />
+                                    </div>     
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon icon-huluobu"></i>
+                                <a href="html/goodlist.html">维生素钙</a>
+                                <div class="nav3">
+                                    <div class="nav31">
+                                        <dl>
+                                            <dt><a href="#">维生素</a></dt>
+                                            <dd><a href="#">维生素E</a></dd>
+                                            <dd><a href="#">复合维生素</a></dd>
+                                            <dd><a href="#">维生素AD/鱼肝油</a></dd>
+                                            <dd><a href="#">维生素B</a></dd>
+                                            <dd><a href="#">维生素C</a></dd>
+                                            <dd><a href="#">孕妇维生素</a></dd>
+                                            <dd><a href="#">婴幼儿维生素</a></dd>
+                                            <dd><a href="#">中老年维生素</a></dd>
+                                            <dd><a href="#">进口维生素</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">钙剂</a></dt>
+                                            <dd><a href="#">碳酸钙</a></dd>
+                                            <dd><a href="#">复合钙</a></dd>
+                                            <dd><a href="#">氨糖钙</a></dd>
+                                            <dd><a href="#">液体钙</a></dd>
+                                            <dd><a href="#">孕妇钙</a></dd>
+                                            <dd><a href="#">小儿钙</a></dd>
+                                            <dd><a href="#">进口钙</a></dd>
+
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">热销品牌</a></dt>
+                                            <dd><a href="#">钙尔奇</a></dd>
+                                            <dd><a href="#">爱乐维</a></dd>
+                                            <dd><a href="#">迪巧</a></dd>
+                                            <dd><a href="#">汤臣倍健</a></dd>
+                                            <dd><a href="#">Swisse</a></dd>
+                                            <dd><a href="#">善存</a></dd>
+                                            <dd><a href="#">斯利安</a></dd>
+                                            <dd><a href="#">金施尔康</a></dd>
+                                            <dd><a href="#">伊可新</a></dd>
+                                            <dd><a href="#">哈药</a></dd>
+                                            <dd><a href="#">养生堂</a></dd>
+                                            <dd><a href="#">澳佳宝</a></dd>
+                                            <dd><a href="#">绿健园</a></dd>
+                                            <dd><a href="#">恩百</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav32">
+                                        <dl>
+                                            <dt><a href="#">叶酸</a></dt>
+                                            <dd><a href="#">叶酸片</a></dd>
+                                            <dd><a href="#">叶酸铁片</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">矿物质</a></dt>
+                                            <dd><a href="#">锌</a></dd>
+                                            <dd><a href="#">复合矿物质</a></dd>
+                                            <dd><a href="#">铁</a></dd>
+                                            <dd><a href="#">镁</a></dd>
+                                            <dd><a href="#">硒</a></dd>
+                                            <dd><a href="#">进口矿物质</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">常见症状</a></dt>
+                                            <dd><a href="#">骨质疏松</a></dd>
+                                            <dd><a href="#">小儿挑食</a></dd>
+                                            <dd><a href="#">预防感冒</a></dd>
+                                            <dd><a href="#">提高免疫</a></dd>
+                                            <dd><a href="#">祛斑抗氧化</a></dd>
+                                            <dd><a href="#">孕期补充</a></dd>
+                                            <dd><a href="#">营养补血</a></dd>
+                                            <dd><a href="#">熬夜加班</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">热销商家</a></dt>
+                                            <dd><a href="#">恩百官方旗舰店</a></dd>
+                                            <dd><a href="#">我帮海购</a></dd>
+                                            <dd><a href="#">汤臣倍健官方旗舰店</a></dd>
+                                            <dd><a href="#">海倍全球购</a></dd>
+                                            <dd><a href="#">香港益安宁海外旗舰店</a></dd>
+                                            <dd><a href="#">SKYSHOP海外购旗舰店</a></dd>
+                                        </dl>    
+                                    </div>
+                                    <div class="nav33 navimg">
+                                        <img src="images/168.jpg" />
+                                    </div>
+                                    <div class="nav34">
+                                        <img src="images/8.jpg" />
+                                        <img src="images/9.jpg" />
+                                    </div>     
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon icon-yanjing"></i>
+                                <a href="html/goodlist.html">隐形眼镜</a>
+                                <div class="nav3">
+                                    <div class="nav31">
+                                        <dl>
+                                            <dt><a href="#">透明隐形眼镜</a></dt>
+                                            <dd><a href="#">海昌</a></dd>
+                                            <dd><a href="#">博士伦</a></dd>
+                                            <dd><a href="#">强生</a></dd>
+                                            <dd><a href="#">视康</a></dd>
+                                            <dd><a href="#">卫康</a></dd>
+                                            <dd><a href="#">海俪恩</a></dd>
+                                            <dd><a href="#">库博</a></dd>
+                                            <dd><a href="#">蔡司</a></dd>
+                                            <dd><a href="#">米如Miru</a></dd>
+                                            <dd><a href="#">美若康</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">彩色隐形眼镜</a></dt>
+                                            <dd><a href="#">博士伦</a></dd>
+                                            <dd><a href="#">强生美瞳</a></dd>
+                                            <dd><a href="#">海昌</a></dd>
+                                            <dd><a href="#">卫康</a></dd>
+                                            <dd><a href="#">海俪恩</a></dd>
+                                            <dd><a href="#">科莱博</a></dd>
+                                            <dd><a href="#">NEO</a></dd>
+                                            <dt><a href="#">陌陌</a></dt>
+                                            <dd><a href="#">实瞳</a></dd>
+                                            <dd><a href="#">视康</a></dd>
+                                            <dd><a href="#">卡洛尼</a></dd>
+                                            <dd><a href="#">安瞳</a></dd>
+                                            <dd><a href="#">美若康</a></dd> 
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">按周期找</a></dt>
+                                            <dd><a href="#">日抛</a></dd>
+                                            <dd><a href="#">双周抛</a></dd>
+                                            <dd><a href="#">月抛</a></dd>
+                                            <dd><a href="#">季抛</a></dd>
+                                            <dd><a href="#">半年抛</a></dd>
+                                            <dd><a href="#">年抛</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">按颜色找</a></dt>
+                                            <dd><a href="#">棕色</a></dd>
+                                            <dd><a href="#">黑色</a></dd>
+                                            <dd><a href="#">灰色</a></dd>
+                                            <dd><a href="#">巧克力</a></dd>
+                                            <dd><a href="#">蓝色</a></dd>
+                                            <dd><a href="#">紫色</a></dd>
+                                            <dd><a href="#">绿色</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav32">
+                                        <dl>
+                                            <dt><a href="#">隐形眼镜护理液</a></dt>
+                                            <dd><a href="#">爱尔康</a></dd>
+                                            <dd><a href="#">博士伦</a></dd>
+                                            <dd><a href="#">海昌</a></dd>
+                                            <dd><a href="#">视康</a></dd>
+                                            <dd><a href="#">卫康</a></dd>
+                                            <dd><a href="#">雅培</a></dd>
+                                            <dd><a href="#">培克能</a></dd>
+                                            <dd><a href="#">蔡司</a></dd>
+                                            <dd><a href="#">美汐</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">隐形眼镜伴侣</a></dt>
+                                            <dd><a href="#">双氧水</a></dd>
+                                            <dd><a href="#">润眼液</a></dd>
+                                            <dd><a href="#">洗眼液</a></dd>
+                                            <dd><a href="#">眼镜清洗器</a></dd>
+                                            <dd><a href="#">隐形眼镜盒</a></dd>
+                                            <dd><a href="#">拭镜纸</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">功能眼镜</a></dt>
+                                            <dd><a href="#">老花眼镜</a></dd>
+                                        </dl>   
+                                    </div>
+                                    <div class="nav33">
+                                        <dl>
+                                            <dt><a href="#">专家指导——健康美丽眼</a></dt>
+                                            <dd><a href="#">第一次戴隐形眼镜注意什么？</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav34">
+                                        <img src="images/10.jpg" />
+                                        <img src="images/11.jpg" />
+                                    </div>     
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon icon-tiwenji"></i>
+                                <a href="html/goodlist.html">医疗器械、健康电器</a>
+                                <div class="nav3">
+                                    <div class="nav31">
+                                        <dl>
+                                            <dt><a href="#">检测器材</a></dt>
+                                            <dd><a href="#">血压计</a></dd>
+                                            <dd><a href="#">血糖仪</a></dd>
+                                            <dd><a href="#">体温计</a></dd>
+                                            <dd><a href="#">血氧仪</a></dd>
+                                            <dd><a href="#">听诊器</a></dd>
+                                            <dd><a href="#">计步器</a></dd>
+                                            <dd><a href="#">电子秤/脂肪秤</a></dd>
+                                            <dd><a href="#">厨房秤</a></dd>
+                                            <dd><a href="#">温度计/湿度计</a></dd>
+                                            <dd><a href="#">胎心仪</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">家庭常备药</a></dt>
+                                            <dd><a href="#">创可贴</a></dd>
+                                            <dd><a href="#">酒精/消毒剂</a></dd>
+                                            <dd><a href="#">棉签/棉球/棉片</a></dd>
+                                            <dd><a href="#">绷带/纱布</a></dd>
+                                            <dd><a href="#">退热贴/冰袋</a></dd>
+                                            <dd><a href="#">胶布</a></dd>
+                                            <dd><a href="#">眼罩</a></dd>
+                                            <dd><a href="#">晕车贴</a></dd>
+                                            <dd><a href="#">药箱/药包</a></dd>
+                                            <dd><a href="#">手套</a></dd>
+                                            <dd><a href="#">急救包</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">康复理疗仪</a></dt>
+                                            <dd><a href="#">雾化器</a></dd>
+                                            <dd><a href="#">制氧机</a></dd>
+                                            <dd><a href="#">电磁治疗仪</a></dd>
+                                            <dd><a href="#">呼吸机</a></dd>
+                                            <dd><a href="#">皮肤病</a></dd>
+                                            <dd><a href="#">吸痰器</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">护具系列</a></dt>
+                                            <dd><a href="#">护膝/护踝</a></dd>
+                                            <dd><a href="#">护腰</a></dd>
+                                            <dd><a href="#">护颈/护肩</a></dd>
+                                            <dd><a href="#">护肘/护腕</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav32">
+                                        <dl>
+                                            <dt><a href="#">呼吸道用具</a></dt>
+                                            <dd><a href="#">口罩</a></dd>
+                                            <dd><a href="#">鼻炎/鼻腔喷雾器</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">辅助器材</a></dt>
+                                            <dd><a href="#">助听器</a></dd>
+                                            <dd><a href="#">轮椅</a></dd>
+                                            <dd><a href="#">便盆</a></dd>
+                                            <dd><a href="#">拐杖/助行器</a></dd>
+                                            <dd><a href="#">防褥坐垫</a></dd>
+                                            <dd><a href="#">护理床</a></dd>
+                                            <dd><a href="#">造口袋</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">辅助理疗</a></dt>
+                                            <dd><a href="#">理疗贴</a></dd>
+                                            <dd><a href="#">针灸/拔罐</a></dd>
+                                            <dd><a href="#">止痛贴</a></dd>
+                                            <dd><a href="#">保健枕</a></dd>
+                                            <dd><a href="#">牵引器具</a></dd>
+                                            <dd><a href="#">胰岛素针头</a></dd>
+                                            <dd><a href="#">护眼贴</a></dd>
+                                            <dd><a href="#">退热贴</a></dd>
+                                        </dl> 
+                                    </div>
+                                    <div class="nav33">
+                                        <dl>
+                                            <dt><a href="#">健康生活电器</a></dt>
+                                            <dd><a href="#">电动牙刷</a></dd>
+                                            <dd><a href="#">剃须刀</a></dd>
+                                            <dd><a href="#">足浴盆</a></dd>
+                                            <dd><a href="#">空气净化器</a></dd>
+                                            <dd><a href="#">净水设备</a></dd>
+                                            <dd><a href="#">按摩器</a></dd>
+                                            <dd><a href="#">其他生活电器</a></dd>
+                                        </dl>    
+                                        <dl>
+                                            <dt><a href="#">热卖推荐</a></dt>
+                                            <dd><a href="#">欧姆龙HEM-7051血压计</a></dd>
+                                            <dd><a href="#">罗氏血糖仪试纸</a></dd>
+                                            <dd><a href="#">强生血糖试纸</a></dd>
+                                            <dd><a href="#">诺斯清鼻腔喷雾</a></dd>
+                                            <dd><a href="#">小林退热贴</a></dd>
+                                            <dd><a href="#">红外额式体温计</a></dd>
+                                            <dd><a href="#">万通筋骨贴</a></dd>
+                                            <dd><a href="#">颈椎治疗仪</a></dd>
+                                            <dd><a href="#">居家净水器</a></dd>
+                                        </dl>    
+                                    </div>
+                                    <div class="nav34">
+                                        <img src="images/12.jpg" />
+                                        <img src="images/13.jpg" />
+                                    </div>     
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon icon-ximiannai"></i>
+                                <a href="html/goodlist.html">药妆个护</a>
+                                <div class="nav3">
+                                    <div class="nav31">
+                                        <dl>
+                                            <dt><a href="#">热销推荐</a></dt>
+                                            <dd><a href="#">祛疤</a></dd>
+                                            <dd><a href="#">面膜</a></dd>
+                                            <dd><a href="#">口腔上火</a></dd>
+                                            <dd><a href="#">私处护理</a></dd>
+                                            <dd><a href="#">护手霜</a></dd>
+                                            <dd><a href="#">暖宝宝</a></dd>
+                                        </dl>    
+                                        <dl>
+                                            <dt><a href="#">专业药妆</a></dt>
+                                            <dd><a href="#">干燥脱屑</a></dd>
+                                            <dd><a href="#">控油祛痘</a></dd>
+                                            <dd><a href="#">舒敏祛红</a></dd>
+                                            <dd><a href="#">暗沉美白</a></dd>
+                                            <dd><a href="#">老化松弛</a></dd>
+                                            <dd><a href="#">防晒隔离</a></dd>
+                                            <dd><a href="#">祛痘</a></dd>
+                                            <dd><a href="#">祛疤</a></dd>
+                                            <dd><a href="#">敏感</a></dd>
+                                            <dd><a href="#">红血丝</a></dd>
+                                            <dt><a href="#">祛斑</a></dt>
+                                            <dd><a href="#">去黑头</a></dd>
+                                            <dd><a href="#">去黑眼圈</a></dd>
+                                        </dl>    
+                                        <dl>
+                                            <dt><a href="#">面部护理</a></dt>
+                                            <dd><a href="#">眼霜</a></dd>
+                                            <dd><a href="#">面膜</a></dd>
+                                            <dd><a href="#">卸妆</a></dd>
+                                            <dd><a href="#">洁面</a></dd>
+                                            <dd><a href="#">爽肤水</a></dd>
+                                            <dd><a href="#">防晒</a></dd>
+                                            <dd><a href="#">乳液</a></dd>
+                                            <dd><a href="#">面霜</a></dd>
+                                            <dd><a href="#">精华</a></dd>
+                                            <dd><a href="#">喷雾</a></dd>
+                                            <dd><a href="#">润唇膏</a></dd>
+                                        </dl> 
+                                    </div>
+                                    <div class="nav32">
+                                        <dl>
+                                            <dt><a href="#">口腔护理</a></dt>
+                                            <dd><a href="#">牙膏</a></dd>
+                                            <dd><a href="#">牙刷</a></dd>
+                                            <dd><a href="#">漱口水</a></dd>
+                                            <dd><a href="#">牙线</a></dd>
+                                            <dd><a href="#">假牙护理</a></dd>
+                                            <dd><a href="#">进口口腔</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">女性护理</a></dt>
+                                            <dd><a href="#">进口私处护理</a></dd>
+                                            <dd><a href="#">私处护理</a></dd>
+                                            <dd><a href="#">卫生巾</a></dd>
+                                            <dd><a href="#">护垫</a></dd>
+                                            <dd><a href="#">私处洗液</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">身体护理</a></dt>
+                                            <dd><a href="#">活络油</a></dd>
+                                            <dd><a href="#">美体润肤</a></dd>
+                                            <dd><a href="#">胸部护理</a></dd>
+                                            <dd><a href="#">手足护理</a></dd>
+                                            <dd><a href="#">香体止汗</a></dd>
+                                            <dd><a href="#">去脚气</a></dd>
+                                            <dd><a href="#">脱毛膏</a></dd>
+                                            <dd><a href="#">去狐臭</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">个人洗护</a></dt>
+                                            <dd><a href="#">染发</a></dd>
+                                            <dd><a href="#">洗发</a></dd>
+                                            <dd><a href="#">护发</a></dd>
+                                            <dd><a href="#">沐浴露</a></dd>
+                                            <dd><a href="#">洗手液</a></dd>
+                                            <dd><a href="#">香皂</a></dd>
+                                            <dd><a href="#">花露水</a></dd>
+                                            <dd><a href="#">进口洗护</a></dd>
+                                        </dl>    
+                                    </div>
+                                    <div class="nav33">
+                                        <dl>
+                                            <dt><a href="#">男士护理</a></dt>
+                                            <dd><a href="#">防脱发</a></dd>
+                                            <dd><a href="#">洗面奶</a></dd>
+                                            <dd><a href="#">爽肤水</a></dd>
+                                            <dd><a href="#">乳液</a></dd>
+                                            <dd><a href="#">面膜</a></dd>
+                                            <dd><a href="#">剃须护理</a></dd>
+                                            <dd><a href="#">洗发水</a></dd>
+                                            <dd><a href="#">男士洗液</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">家庭清洁</a></dt>
+                                            <dd><a href="#">纸品湿巾</a></dd>
+                                            <dd><a href="#">衣物清洁</a></dd>
+                                            <dd><a href="#">驱虫驱蚊</a></dd>
+                                            <dd><a href="#">厨卫清洁</a></dd>
+                                            <dd><a href="#">消毒液</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">进口个人护理</a></dt>
+                                            <dd><a href="#">眼药水</a></dd>
+                                            <dd><a href="#">活络油</a></dd>
+                                            <dd><a href="#">镇痛膏</a></dd>
+                                            <dd><a href="#">祛疤</a></dd>
+                                            <dd><a href="#">灰指甲</a></dd>
+                                            <dd><a href="#">足贴</a></dd>
+                                            <dd><a href="#">牙膏</a></dd>
+                                            <dd><a href="#">兰芝</a></dd>
+                                            <dd><a href="#">科颜氏</a></dd>
+                                            <dd><a href="#">星期四</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav34">
+                                        <img src="images/14.jpg" />
+                                        <img src="images/15.jpg" />
+                                    </div>     
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon icon-biyuntao"></i>
+                                <a href="html/goodlist.html">成人用品</a>
+                                <div class="nav3">
+                                    <div class="nav31">
+                                        <dl>
+                                            <dt><a href="#">热卖推荐</a></dt>
+                                            <dd><a href="#">冈本003</a></dd>
+                                            <dd><a href="#">冈本透薄</a></dd>
+                                            <dd><a href="#">杜蕾斯24片</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">避孕套</a></dt>
+                                            <dd><a href="#">杜蕾斯</a></dd>
+                                            <dd><a href="#">冈本</a></dd>
+                                            <dd><a href="#">杰士邦</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav32">
+                                        <dl>
+                                            <dt><a href="#">排卵/验孕</a></dt>
+                                            <dd><a href="#">排卵试纸</a></dd>
+                                            <dd><a href="#">早孕试纸</a></dd>
+                                            <dd><a href="#">电子验孕笔</a></dd>
+                                            <dd><a href="#">精子检测</a></dd>
+                                            <dd><a href="#">大卫</a></dd>
+                                            <dd><a href="#">毓婷</a></dd>
+                                            <dd><a href="#">可丽蓝</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav33 navimg">
+                                        <img src="images/169.jpg" />
+                                    </div>
+                                    <div class="nav34">
+                                        <img src="images/16.jpg" />
+                                        <img src="images/17.jpg" />
+                                    </div>     
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon icon-yinger"></i>
+                                <a href="html/goodlist.html">婴儿专区</a>
+                                <div class="nav3">
+                                    <div class="nav31">
+                                        <dl>
+                                            <dt><a href="#">奶粉辅食</a></dt>
+                                            <dd><a href="#">爱他美</a></dd>
+                                            <dd><a href="#">牛栏</a></dd>
+                                            <dd><a href="#">美素</a></dd>
+                                            <dd><a href="#">喜宝</a></dd>
+                                            <dd><a href="#">A2</a></dd>
+                                            <dd><a href="#">贝拉米</a></dd>
+                                            <dd><a href="#">惠氏</a></dd>
+                                            <dd><a href="#">美赞臣</a></dd>
+                                            <dd><a href="#">辅食营养</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">尿裤湿巾</a></dt>
+                                            <dd><a href="#">花王</a></dd>
+                                            <dd><a href="#">大王</a></dd>
+                                            <dd><a href="#">Moony</a></dd>
+                                            <dd><a href="#">帮宝适</a></dd>
+                                            <dd><a href="#">纸尿裤</a></dd>
+                                            <dd><a href="#">拉拉裤</a></dd>
+                                            <dd><a href="#">宝宝湿巾</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">洗护用品</a></dt>
+                                            <dd><a href="#">洗发液</a></dd>
+                                            <dd><a href="#">沐浴露</a></dd>
+                                            <dd><a href="#">痱子粉</a></dd>
+                                            <dd><a href="#">护臀霜</a></dd>
+                                            <dd><a href="#">洗衣液/皂</a></dd>
+                                            <dd><a href="#">驱蚊止痒</a></dd>
+                                            <dd><a href="#">防晒</a></dd>
+                                            <dd><a href="#">乳液</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">喂养用品</a></dt>
+                                            <dd><a href="#">奶瓶</a></dd>
+                                            <dd><a href="#">奶嘴/安抚奶嘴</a></dd>
+                                            <dd><a href="#">奶瓶清洗剂</a></dd>
+                                            <dd><a href="#">奶瓶刷</a></dd>
+                                            <dd><a href="#">学饮杯</a></dd>
+                                            <dd><a href="#">牙胶</a></dd>
+                                            <dd><a href="#">其他宝宝用品</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav32">
+                                        <dl>
+                                            <dt><a href="#">车床玩具</a></dt>
+                                            <dd><a href="#">益智类</a></dd>
+                                            <dd><a href="#">戏水类</a></dd>
+                                            <dd><a href="#">模型类</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">孕妈用品</a></dt>
+                                            <dd><a href="#">祛疤</a></dd>
+                                            <dd><a href="#">祛纹</a></dd>
+                                            <dd><a href="#">防溢乳垫</a></dd>
+                                            <dd><a href="#">帕玛氏</a></dd>
+                                            <dd><a href="#">百洛油</a></dd>
+                                            <dd><a href="#">地球妈妈</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">进口母婴</a></dt>
+                                            <dd><a href="#">奶粉</a></dd>
+                                            <dd><a href="#">纸尿裤</a></dd>
+                                            <dd><a href="#">辅食</a></dd>
+                                            <dd><a href="#">护肤/面霜</a></dd>
+                                            <dd><a href="#">鳕鱼油/鱼肝油</a></dd>
+                                            <dd><a href="#">维生素D3</a></dd>
+                                            <dd><a href="#">耳温枪</a></dd>
+                                            <dd><a href="#">退热贴/冰宝贴</a></dd>
+                                            <dd><a href="#">PP膏/湿疹膏</a></dd>
+                                            <dd><a href="#">按摩油</a></dd>
+                                            <dd><a href="#">防蚊/驱蚊</a></dd>
+                                            <dd><a href="#">提升免疫</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">热销大牌</a></dt>
+                                            <dd><a href="#">童年时光</a></dd>
+                                            <dd><a href="#">挪威小鱼</a></dd>
+                                            <dd><a href="#">Bio</a></dd>
+                                            <dd><a href="#">Island</a></dd>
+                                            <dd><a href="#">佳思敏</a></dd>
+                                            <dd><a href="#">Ddrops</a></dd>
+                                            <dd><a href="#">嘉宝</a></dd>
+                                        </dl>    
+                                    </div>
+                                    <div class="nav33 navimg">
+                                        <img src="images/170.jpg" />
+                                    </div>
+                                    <div class="nav34">
+                                        <img src="images/18.jpg" />
+                                        <img src="images/19.jpg" />
+                                    </div>     
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon icon-rensheng"></i>
+                                <a href="html/goodlist.html">参人花茶、休闲零食</a>
+                                <div class="nav3">
+                                    <div class="nav31">
+                                        <dl>
+                                            <dt><a href="#">热门推荐</a></dt>
+                                            <dd><a href="#">补肾</a></dd>
+                                            <dd><a href="#">阿胶</a></dd>
+                                            <dd><a href="#">三七</a></dd>
+                                            <dd><a href="#">黄芪</a></dd>
+                                            <dd><a href="#">西洋参</a></dd>
+                                            <dd><a href="#">菊花</a></dd>
+                                            <dd><a href="#">金银花</a></dd>
+                                            <dd><a href="#">枸杞</a></dd>
+                                            <dd><a href="#">灵芝孢子</a></dd>
+                                            <dd><a href="#">云三七</a></dd>
+                                            <dd><a href="#">同仁堂</a></dd>
+                                            <dd><a href="#">草晶华</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">参茸贵细</a></dt>
+                                            <dd><a href="#">冬虫夏草</a></dd>
+                                            <dd><a href="#">鹿茸</a></dd>
+                                            <dd><a href="#">燕窝</a></dd>
+                                            <dd><a href="#">石斛</a></dd>
+                                            <dd><a href="#">灵芝孢子</a></dd>
+                                            <dd><a href="#">人参</a></dd>
+                                            <dd><a href="#">海参</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">中药滋补</a></dt>
+                                            <dd><a href="#">三七</a></dd>
+                                            <dd><a href="#">黄芪</a></dd>
+                                            <dd><a href="#">西洋参</a></dd>
+                                            <dd><a href="#">金银花</a></dd>
+                                            <dd><a href="#">枸杞</a></dd>
+                                            <dd><a href="#">蒲公英</a></dd>
+                                            <dd><a href="#">丹参</a></dd>
+                                            <dd><a href="#">鱼腥草</a></dd>
+                                            <dd><a href="#">天麻</a></dd>
+                                            <dd><a href="#">当归</a></dd>
+                                            <dd><a href="#">肉苁蓉</a></dd>
+                                            <dd><a href="#">淫羊藿</a></dd>
+                                            <dd><a href="#">川贝</a></dd>
+                                            <dd><a href="#">红景天</a></dd>
+                                            <dd><a href="#">菊花</a></dd>
+                                            <dd><a href="#">茯苓</a></dd>
+                                            <dd><a href="#">山药</a></dd>
+                                            <dd><a href="#">胖大海</a></dd>
+                                            <dd><a href="#">罗汉果</a></dd>
+                                            <dd><a href="#">何首乌</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav32">
+                                       <dl>
+                                            <dt><a href="#">健康食品</a></dt>
+                                            <dd><a href="#">薏米</a></dd>
+                                            <dd><a href="#">黑芝麻</a></dd>
+                                            <dd><a href="#">燕麦</a></dd>
+                                            <dd><a href="#">红豆</a></dd>
+                                            <dd><a href="#">饼干</a></dd>
+                                            <dd><a href="#">坚果</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">热门品牌</a></dt>
+                                            <dd><a href="#">同仁堂</a></dd>
+                                            <dd><a href="#">草晶华</a></dd>
+                                            <dd><a href="#">云三七</a></dd>
+                                            <dd><a href="#">盘龙云海</a></dd>
+                                            <dd><a href="#">敖东</a></dd>
+                                            <dd><a href="#">康美</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav33 navimg">
+                                        <img src="images/171.jpg" />
+                                    </div>
+                                    <div class="nav34">
+                                        <img src="images/20.jpg" />
+                                        <img src="images/21.jpg" />
+                                    </div>     
+                                </div>
+                            </li>
+                            <li>
+                                <i class="icon icon-tingzhenqi"></i>
+                                <a href="html/goodlist.html">体检、口腔诊疗</a>
+                                <div class="nav3">
+                                    <div class="nav31">
+                                        <dl>
+                                            <dt><a href="#">体检人群</a></dt>
+                                            <dd><a href="#">中老年体检</a></dd>
+                                            <dd><a href="#">通用体检</a></dd>
+                                            <dd><a href="#">青年体检</a></dd>
+                                            <dd><a href="#">男性体检</a></dd>
+                                            <dd><a href="#">女性体检</a></dd>
+                                        </dl>
+                                        <dl>
+                                            <dt><a href="#">体检类别</a></dt>
+                                            <dd><a href="#">肿瘤体检</a></dd>
+                                            <dd><a href="#">基础体检</a></dd>
+                                            <dd><a href="#">亚健康体检</a></dd>
+                                            <dd><a href="#">入职体检</a></dd>
+                                            <dd><a href="#">中高端体检</a></dd>
+                                        </dl>
+                                       <dl>
+                                            <dt><a href="#">体检品牌</a></dt>
+                                            <dd><a href="#">美年大健康</a></dd>
+                                            <dd><a href="#">爱康国宾</a></dd>
+                                            <dd><a href="#">关爱体检通</a></dd>
+                                            <dd><a href="#">天使健康</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav32">
+                                        <dl>
+                                            <dt><a href="#">爱上体检——远离疾病突袭</a></dt>
+                                            <dd><a href="#">专为女性定制套餐涵盖妇科乳腺等</a></dd>
+                                            <dd><a href="#">入职体检，轻松搞定</a></dd>
+                                        </dl>
+                                    </div>
+                                    <div class="nav33 navimg">
+                                        <img src="images/172.jpg"  />
+                                    </div>
+                                    <div class="nav34">
+                                        <img src="images/23.jpg" />
+                                        <img src="images/24.jpg" />
+                                    </div>     
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">家庭常备药</a></li>
+                    <li><a href="#">乙肝</a></li>
+                    <li><a href="#" class="red">瘦身减肥</a></li>
+                    <li><a href="#">男性早泄</a></li>
+                    <li><a href="#" class="red">控制三高</a></li>
+                    <li><a href="#">中药抓药</a></li>
+                    <li><a href="#" class="purple">商家海外购</a></li>
+                </ul>
+            </div>   
+        </div>
+        <div id="banner">
+            <div class="container">
+                <div class="bannerz">
+                    <ul class="lunbotu fl">
+                    </ul>
+                    <div class="banner_r fr">
+                        <span><a href="#">在线咨询</a></span>
+                        <span><a href="#">医生问诊</a></span>
+                        <div class="kemu">
+                            <a href="#">男科 &gt; </a>
+                            <a href="#">妇科 &gt; </a>
+                            <a href="#">糖尿病 &gt; </a>
+                            <a href="#">心脑血管 &gt; </a>
+                            <a href="#">肝胆科 &gt; </a>
+                            <a href="#">神经科 &gt; </a>
+                            <a href="#">肿瘤 &gt; </a>
+                            <a href="#">消化科 &gt; </a>
+                            <a href="#">风湿骨科 &gt; </a>
+                            <a href="#">皮肤性病 &gt; </a>
+                            <a href="#">眼鼻耳喉 &gt; </a>
+                            <a href="#">呼吸科 &gt; </a>
+                            <a href="#">滋补保健 &gt; </a>
+                            <a href="#">散光验配 &gt; </a>
+                            <a href="#">医疗器械 &gt; </a>
+                        </div>
+                        <img src="images/31.jpg"/>
+                        <span><a href="#">优质服务</a></span>
+                        <span><a href="#">公告</a></span>
+                        <ul class="gonggao">
+                            <li><img src="images/32.png" />正品保障</li>
+                            <li><img src="images/33.png" />品牌授权</li>
+                            <li><img src="images/34.png" />药监认证</li>
+                            <li><img src="images/35.png" />满79包邮</li>  
+                        </ul>
+                    </div> 
+                </div>
+            </div> 
+        </div>
+        <div id="miaosha">
+            <div class="container">
+                <div class="clock"> 
+                </div>
+               <div class="miaoshagoods">
+               </div>
+               <a href="#"><img src="images/41.jpg"/></a>
+            </div>   
+        </div>
+        <div id="changbei">
+            <div class="container">
+                <dl class="neirong_l fl">
+                    <dt>1F 家庭常备药</dt>
+                    <dd><a href="#">补肾</a></dd>
+                    <dd><a href="#">皮炎廯症</a></dd>
+                    <dd><a href="#">补血补气</a></dd>
+                    <dd><a href="#">腹泻</a></dd>
+                    <dd><a href="#">鼻炎</a></dd>
+                    <dd><a href="#">前列腺炎</a></dd>
+                    <dd><a href="#">青春痘</a></dd>
+                    <dd><a href="#">保肝护肝</a></dd>
+                    <dd><a href="#">减肥瘦身</a></dd>
+                    <dd><a href="#">男性不孕症</a></dd>
+                    <dd><a href="#">眼干眼涩</a></dd>
+                    <dd><a href="#">感冒发烧</a></dd>
+                    <dd><a href="#">阴道炎</a></dd>
+                    <dd><a href="#">避孕</a></dd>
+                    <dd><a href="#">胃炎</a></dd>
+                    <dd><a href="#">增强免疫力</a></dd>
+                </dl>
+                <div class="neirong_r fl">
+                    <div class="neirong_rt">
+                        <div class="smallbanner fl">                            
+                        </div>
+                        <a href="#" class="fl"><img src="images/43.jpg" alt="" /></a>
+                        <a href="#" class="fr"><img src="images/44.jpg" alt="" /></a>
+                    </div>
+                    <div class="neirong_rb">
+                        <ul class="jiating"></ul>
+                    </div>
+                </div>
+            </div>   
+        </div>
+        <div id="zhuanke">
+            <div class="container">
+                <dl class="neirong_l fl">
+                    <dt>2F 专科用药</dt>
+                    <dd><a href="#">性功能障碍</a></dd>
+                    <dd><a href="#">乙肝</a></dd>
+                    <dd><a href="#">风湿类风湿</a></dd>
+                    <dd><a href="#">高血压</a></dd>
+                    <dd><a href="#">抑郁症</a></dd>
+                    <dd><a href="#">哮喘</a></dd>
+                    <dd><a href="#">冠心病</a></dd>
+                    <dd><a href="#">糖尿病</a></dd>
+                    <dd><a href="#">银屑病</a></dd>
+                    <dd><a href="#">关节炎</a></dd>
+                    <dd><a href="#">癫痫</a></dd>
+                    <dd><a href="#">脱发</a></dd>
+                    <dd><a href="#">痛风</a></dd>
+                    <dd><a href="#">帕金森</a></dd>
+                    <dd><a href="#">精神分裂症</a></dd>
+                    <dd><a href="#">中风</a></dd>
+                </dl>
+                <div class="neirong_r fl">
+                    <div class="neirong_rt">
+                        <div class="smallbanner fl">                  
+                        </div>
+                        <a href="#" class="fl"><img src="images/55.jpg" alt="" /></a>
+                        <a href="#" class="fr"><img src="images/56.jpg" alt="" /></a>
+                    </div>
+                    <div class="neirong_rb">
+                        <ul class="zhuanke"></ul>
+                    </div>
+                </div>
+                <a href="#"><img src="images/58.jpg"/></a>
+            </div>   
+        </div>
+        <div id="baojian">
+            <div class="container">
+                <dl class="neirong_l fl">
+                    <dt>3F 滋养保健</dt>
+                    <dd><a href="#">男性保健</a></dd>
+                    <dd><a href="#">减肥瘦身</a></dd>
+                    <dd><a href="#">改善睡眠</a></dd>
+                    <dd><a href="#">氮糖钙片</a></dd>
+                    <dd><a href="#">保肝护肝</a></dd>
+                    <dd><a href="#">成人益生菌</a></dd>
+                    <dd><a href="#">云南三七粉</a></dd>
+                    <dd><a href="#">蛋白质粉</a></dd>
+                    <dd><a href="#"><img src="images/68.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/69.png" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/70.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/71.png" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/72.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/73.jpg" alt="" /></a></dd>
+                    <dd><a href="#"></a></dd>
+                    <dd><a href="#"></a></dd>
+                </dl>
+                <div class="neirong_r fl">
+                    <div class="neirong_rt">
+                        <div class="smallbanner fl">                  
+                        </div>
+                        <a href="#" class="fl"><img src="images/55.jpg" alt="" /></a>
+                        <a href="#" class="fr"><img src="images/56.jpg" alt="" /></a>
+                    </div>
+                    <div class="neirong_rb">
+                        <ul class="baojian"></ul>
+                    </div>
+                </div>   
+            </div>   
+        </div>
+        <div id="weishengsu">
+            <div class="container">
+                <dl class="neirong_l fl">
+                    <dt>4F 维生素钙</dt>
+                    <dd><a href="#">维生素B</a></dd>
+                    <dd><a href="#">叶酸</a></dd>
+                    <dd><a href="#">维生素C</a></dd>
+                    <dd><a href="#">复合维生素</a></dd>
+                    <dd><a href="#">复合矿物质</a></dd>
+                    <dd><a href="#">钙剂</a></dd>
+                    <dd><a href="#">维生素AD</a></dd>
+                    <dd><a href="#">维生素E</a></dd>
+                    <dd><a href="#"><img src="images/87.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/88.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/89.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/90.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/91.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/92.jpg" alt="" /></a></dd>
+                    <dd><a href="#"></a></dd>
+                    <dd><a href="#"></a></dd>
+                </dl>
+                <div class="neirong_r fl">
+                    <div class="neirong_rt">
+                        <div class="smallbanner fl">
+                        </div>
+                        <a href="#" class="fl"><img src="images/95.jpg" alt="" /></a>
+                        <a href="#" class="fr"><img src="images/96.jpg" alt="" /></a>
+                    </div>
+                    <div class="neirong_rb">
+                        <ul class="weishengsu"></ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="qixie">
+            <div class="container">
+                <dl class="neirong_l fl">
+                    <dt>5F 医疗器械</dt>
+                    <dd><a href="#">血压计</a></dd>
+                    <dd><a href="#">血糖仪</a></dd>
+                    <dd><a href="#">空气净化器</a></dd>
+                    <dd><a href="#">防霾口罩</a></dd>
+                    <dd><a href="#">雾化器</a></dd>
+                    <dd><a href="#">制氧机</a></dd>
+                    <dd><a href="#">理疗机</a></dd>
+                    <dd><a href="#">家庭常备药</a></dd>
+                    <dd><a href="#"><img src="images/98.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/99.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/100.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/101.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/102.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/103.jpg" alt="" /></a></dd>
+                    <dd><a href="#"></a></dd>
+                    <dd><a href="#"></a></dd>
+                </dl>
+                <div class="neirong_r fl">
+                    <div class="neirong_rt">
+                        <div class="smallbanner fl">
+                        </div>
+                        <a href="#" class="fl"><img src="images/105.jpg" alt="" /></a>
+                        <a href="#" class="fr"><img src="images/106.jpg" alt="" /></a>
+                    </div>
+                    <div class="neirong_rb">
+                        <ul class="qixie"></ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="yanjing">
+            <div class="container">
+                <dl class="neirong_l fl">
+                    <dt>6F 隐形眼镜</dt>
+                    <dd><a href="#">日抛</a></dd>
+                    <dd><a href="#">月抛</a></dd>
+                    <dd><a href="#">季抛</a></dd>
+                    <dd><a href="#">半年抛</a></dd>
+                    <dd><a href="#">年抛</a></dd>
+                    <dd><a href="#">护理液</a></dd>
+                    <dd><a href="#">润眼液</a></dd>
+                    <dd><a href="#">镜盒</a></dd>
+                    <dd><a href="#"><img src="images/107.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/108.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/109.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/110.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/111.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/112.jpg" alt="" /></a></dd>
+                    <dd><a href="#"></a></dd>
+                    <dd><a href="#"></a></dd>
+                </dl>
+                <div class="neirong_r fl">
+                    <div class="neirong_rt">
+                        <div class="smallbanner fl">
+                        </div>
+                        <a href="#" class="fl"><img src="images/115.jpg" alt="" /></a>
+                        <a href="#" class="fr"><img src="images/116.jpg" alt="" /></a>
+                    </div>
+                    <div class="neirong_rb">
+                        <ul class="yanjing"></ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="chengren">
+            <div class="container">
+                <dl class="neirong_l fl">
+                    <dt>7F 成人用品</dt>
+                    <dd><a href="#">安全套</a></dd>
+                    <dd><a href="#">大号套</a></dd>
+                    <dd><a href="#">小号套</a></dd>
+                    <dd><a href="#">润滑套</a></dd>
+                    <dd><a href="#">润滑液</a></dd>
+                    <dd><a href="#">可丽蓝</a></dd>
+                    <dd><a href="#">验孕试纸</a></dd>
+                    <dd><a href="#">排卵试纸</a></dd>
+                    <dd><a href="#"><img src="images/147.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/148.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/149.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/150.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/151.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/152.jpg" alt="" /></a></dd>
+                    <dd><a href="#"></a></dd>
+                    <dd><a href="#"></a></dd>
+                </dl>
+                <div class="neirong_r fl">
+                    <div class="neirong_rt">
+                        <div class="smallbanner fl">
+                        </div>
+                        <a href="#" class="fl"><img src="images/141.jpg" alt="" /></a>
+                        <a href="#" class="fr"><img src="images/142.jpg" alt="" /></a>
+                    </div>
+                    <div class="neirong_rb">
+                        <ul class="chengren"></ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="gehu">
+            <div class="container">
+                <dl class="neirong_l fl">
+                    <dt>8F 药妆个护</dt>
+                    <dd><a href="#">牙龈出血</a></dd>
+                    <dd><a href="#">私处护理</a></dd>
+                    <dd><a href="#">面膜护理</a></dd>
+                    <dd><a href="#">舒缓抗敏</a></dd>
+                    <dd><a href="#">洁面卸妆</a></dd>
+                    <dd><a href="#">手部护理</a></dd>
+                    <dd><a href="#">祛痘淡疤</a></dd>
+                    <dd><a href="#">纸品湿巾</a></dd>
+                    <dd><a href="#"><img src="images/153.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/154.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/155.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/156.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/157.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/158.jpg" alt="" /></a></dd>
+                    <dd><a href="#"></a></dd>
+                    <dd><a href="#"></a></dd>
+                </dl>
+                <div class="neirong_r fl">
+                    <div class="neirong_rt">
+                        <div class="smallbanner fl">
+                        </div>
+                        <a href="#" class="fl"><img src="images/143.jpg" alt="" /></a>
+                        <a href="#" class="fr"><img src="images/144.jpg" alt="" /></a>
+                    </div>
+                    <div class="neirong_rb">
+                        <ul class="gehu"></ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="muying">
+            <div class="container">
+                <dl class="neirong_l fl">
+                    <dt>9F 母婴用品</dt>
+                    <dd><a href="#">进口奶粉</a></dd>
+                    <dd><a href="#">宝宝尿裤</a></dd>
+                    <dd><a href="#">婴儿辅食</a></dd>
+                    <dd><a href="#">哺育喂养</a></dd>
+                    <dd><a href="#">车床玩具</a></dd>
+                    <dd><a href="#">清洁洗护</a></dd>
+                    <dd><a href="#">防辐射服</a></dd>
+                    <dd><a href="#">孕妈养护</a></dd>
+                    <dd><a href="#"><img src="images/159.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/160.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/161.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/162.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/163.jpg" alt="" /></a></dd>
+                    <dd><a href="#"><img src="images/164.jpg" alt="" /></a></dd>
+                    <dd><a href="#"></a></dd>
+                    <dd><a href="#"></a></dd>
+                </dl>
+                <div class="neirong_r fl">
+                    <div class="neirong_rt">
+                        <div class="smallbanner fl">
+                        </div>
+                        <a href="#" class="fl"><img src="images/145.jpg" alt="" /></a>
+                        <a href="#" class="fr"><img src="images/146.jpg" alt="" /></a>
+                    </div>
+                    <div class="neirong_rb">
+                        <ul class="muying"></ul>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div id="links">
+            <div class="container">
+                <ul>
+                    <li class="focus pinpai">品牌旗舰店</li>
+                    <li class="lianejie">友情链接</li>
+                </ul>
+                <div class="linkout">
+                    <div class="linkout_l">
+                        <a href="#">拜耳</a>
+                        <a href="#">辉瑞</a>
+                        <a href="#">倩碧</a>
+                        <a href="#">默沙东</a>
+                        <a href="#">中美史克</a>
+                        <a href="#">施贵宝</a>
+                        <a href="#">诺华</a>
+                        <a href="#">阿斯利康</a>
+                        <a href="#">罗氏</a>
+                        <a href="#">北京同仁堂</a>
+                        <a href="#">冈本</a>
+                        <a href="#">杜蕾斯</a>
+                        <a href="#">欧姆龙</a>
+                        <a href="#">云南白药</a>
+                        <a href="#">太极集团</a>
+                        <a href="#">桂龙药业</a>
+                        <a href="#">东阿阿胶</a>
+                        <a href="#">海昌</a>
+                        <a href="#">汤臣倍健</a>
+                        <a href="#">海俪恩</a>
+                    </div>
+                    <div class="linkout_r">
+                        <a href="//www.pingan.com/">中国平安官网</a> 
+                        <a href="http://www.yaofang.cn/">网上药店</a> 
+                        <a href="//www.jianke.com/">健客</a> 
+                        <a href="http://www.800pharm.com/">药品网购</a> 
+                        <a href="//tag.120ask.com/">有问必答知识库</a> 
+                        <a href="http://999120.net/">预约挂号</a> 
+                        <a href="//www.bamaol.com/">心理咨询</a> 
+                        <a href="//fk.99.com.cn/">妇科疾病</a> 
+                        <a href="http://www.xinyao.com.cn/">百济新特药房</a> 
+                        <a href="//www.chemdrug.com/">药品资讯网</a> 
+                        <a href="http://www.familydoctor.com.cn/">家庭医生在线 </a> 
+                        <a href="http://yao.xywy.com/">药品</a>
+                        <a href="http://drug.39.net/">39药品</a> 
+                        <a href="http://www.zhzyw.org/">中华中医网</a> 
+                        <a href="http://www.mingyihui.net/">预约挂号</a> 
+                        <a href="http://www.ys137.com/">养生</a> 
+                        <a href="//www.psy525.cn/">心理咨询</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div id="doctor">
+                <div><a href="#"></a></div>
+                <ul class="doctornav">
+                    <li class="weixin">
+                        <a href="#"><i class="icon icon-weixin"></i><span>在线咨询</span></a>
+                        <ul class="weixinul">
+                            <li><a href="#"><i class="icon icon-shouji"></i>售前咨询</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>售后咨询</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>团体采购</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>男科</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>妇科</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>糖尿病</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>心脑血管</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>肝胆科</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>神经科</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>肿瘤</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>消化科</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>风湿骨科</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>皮肤性病</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>眼耳鼻喉</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>呼吸科</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>滋补保健</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>散光验配</a></li>
+                            <li><a href="#"><i class="icon icon-shouji"></i>医疗器械</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="html/cart.html"><i class="icon icon-caidan"></i><span>需求清单</span></a>
+                    </li>
+                    <li class="gouwucheul">
+                        <a href="html/cart.html"><i class="icon icon-gouwuche"></i><span>购物车</span></a>
+                    </li>
+                    <li><a href="#"><i class="icon icon-bijiben"></i><span>用户反馈</span></a></li>
+                    <li class="toTop"><a href="#"><i class="icon icon-jiantouks"></i><span>返回顶部</span></a></li>
+                </ul>
+            </div>
+            <div id="louceng">
+                <div><a href="#miaosha">今日<br />限时购</a></div>
+                <ul class="loucengul">
+                    <li>
+                        <a href="#changbei">1F</a>
+                        <a href="#changbei">家庭<br />常备药</a>
+                    </li>                    
+                    <li>
+                        <a href="#zhuanke">2F</a>
+                        <a href="#zhuanke">专科<br />用药</a>
+                    </li>
+                    <li>
+                        <a href="#baojian">3F</a>
+                        <a href="#baojian">滋补<br />保健</a>
+                    </li>
+                    <li>
+                        <a href="#weishengsu">4F</a>
+                        <a href="#weishengsu">维生<br />素钙</a>
+                    </li>
+                    <li>
+                        <a href="#qixie">5F</a>
+                        <a href="#qixie">医疗<br />器械</a>
+                    </li>
+                    <li>
+                        <a href="#yanjing">6F</a>
+                        <a href="#yanjing">隐形<br />眼镜</a>
+                    </li>
+                    <li>
+                        <a href="#chengren">7F</a>
+                        <a href="#chengren">成人<br />用品</a>
+                    </li>
+                    <li>
+                        <a href="#gehu">8F</a>
+                        <a href="#gehu">药妆<br />个护</a>
+                    </li>
+                    <li>
+                        <a href="#muying">9F</a>
+                        <a href="#muying">母婴<br />用品</a>
+                    </li>
+                </ul>
+            </div>
+        </div>        
+        <div id="footer">          
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+             <div class="container">
+                <ul class="footer_erweima">
+                    <li>
+                        <img src="images/165" class="fl"/>
+                        <div class="fl">
+                            <h4>1药网客户端</h4>
+                            <p>
+                                APP专享价更优惠<br>
+                                满69满免邮<br>
+                                超低移动专享价<br>
+                                药监认证，正品保障
+                            </p>  
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/166" class="fl"/>
+                        <div class="fl">
+                            <h4>健康问答王者</h4>
+                            <p>题目有趣，猛涨知识<br>
+                                答题报告，专业解析<br>
+                                答题结束，得奖励金<br>
+                                健康能量，药网兑换
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/167" class="fl"/>
+                        <div class="fl">
+                            <h4>微信公众号</h4>
+                            <p>健康资讯，科普知识<br>
+                             掌上购药，轻松一点
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <div class="service">
+                    <dl>
+                        <dt>新手入门</dt>
+                        <dd><a href="#">常见问题</a></dd>
+                        <dd><a href="#">新会员注册</a></dd>
+                        <dd><a href="#">用户登录</a></dd>
+                        <dd><a href="#">找回密码</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>购物指南</dt>
+                        <dd><a href="#">购物流程</a></dd>
+                        <dd><a href="#">订单状态说明</a></dd>
+                        <dd><a href="#">隐私声明</a></dd>
+                        <dd><a href="#">发票制度</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>配送服务</dt>
+                        <dd><a href="#">范围、时间及费用</a></dd>
+                        <dd><a href="#">商品验货及签收</a></dd>
+                        <dd><a href="#">门店自提</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>支付方式</dt>
+                        <dd><a href="#">货到付款</a></dd>
+                        <dd><a href="#">网上支付</a></dd>
+                        <dd><a href="#">银行转账</a></dd>
+                        <dd><a href="#">激活优惠券</a></dd>
+                        <dd><a href="#">优惠券使用指南</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>售后服务</dt>
+                        <dd><a href="#">退换货政策</a></dd>
+                        <dd><a href="#">退换货流程</a></dd>
+                        <dd><a href="#">退款方式和时效</a></dd>
+                        <dd><a href="#">售后常见问题</a></dd>
+                        <dd><a href="#">正品保障</a></dd>
+                        <dd><a href="#">品牌售后</a></dd>
+                    </dl>
+                    <dl>
+                        <dt>企业服务</dt>
+                        <dd><a href="#">供应商合作</a></dd>
+                        <dd><a href="#">供应商入口</a></dd>
+                        <dd><a href="#">商家入驻</a></dd>
+                    </dl>
+                    <div class="phone">
+                        <p>400-007-0958</p>
+                        <span>周一到周日 09:00-21:00 <br />(收取市话费)</span>
+                    </div>
+                </div>
+                <p>
+                    <a href="#">关于111集团</a>
+                    <a href="#">关于1药网</a>
+                    <a href="#">诚征英才</a>
+                    <a href="#">直营实体药房</a>
+                    <a href="#">互联网药品信息服务资格证</a>
+                    <a href="#">互联网药品交易资格证：粤C20150007</a>
+                </p>
+                <p>
+                    <a href="#">连锁营业执照</a>
+                    <a href="#">药品经营许可证</a>
+                    <a href="#">医疗器械许可证</a>
+                    <a href="#">食品经营许可证</a>
+                    <a href="#">GSP证书</a>
+                    <a href="#">ICP粤B2-20150066</a>
+                </p>
+                <img src="images/FooterLogo.png" alt="" />
+                <p class="jiewei">
+                    <a href="#">1药网网上药店</a>
+                    <span>,国家药监局认证通过的合法网上药店，中国医药电子商务行业的开拓者领跑者。</span>
+                    <a href="#">粤ICP备12015869号-1</a>
+                    <br />
+                    <span>
+                    公司名称：广东壹号大药房连锁有限公司 公司地址：广东省广州市越秀区共和西路1号2层 联系电话：020-31067218
+                    </span>
+                    <br />
+                    <span>Copyright (C) 2010-2015 1药网版权所有</span>
+                    <a href="#"><i class="icon icon-yisheng"></i>公安备案号 44010402000743</a>
+                </p>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/common.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="lib/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="lib/jquery-sy/jquery-sy.js"></script>
+        <script type="text/javascript" src="js/index-jq.js">      
+        </script>  
+    </div>
+    </body>
+</html>

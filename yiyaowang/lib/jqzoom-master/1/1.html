@@ -1,0 +1,32 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" http://www.w3.org/TR/html4/loose.dtd>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+<title>JQzoom 2 Demo</title>
+<script src="../js/jquery-1.5.js" type="text/javascript"></script>
+<script src="../js/jquery.jqzoom-core.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../css/jquery.jqzoom.css" type="text/css">
+<style type="text/css">
+    
+</style>
+
+<script type="text/javascript">
+
+$(document).ready(function() {
+    $('.jqzoom').jqzoom({
+            zoomType: 'standard',
+            lens:true,
+            preloadImages: false,
+            alwaysOn:false
+        });
+    
+});
+
+
+</script>
+</head>
+
+<body>
+    <a href="2.jpg" class="jqzoom"><img src="1.jpg"></a>
+</body>
+</html>
