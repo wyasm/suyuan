@@ -14,7 +14,7 @@ var password2_true = document.querySelector("#password2_true");
     function panduan(){
         var _phone = phone.value;
         var xhr_panduan = new XMLHttpRequest();
-        var status = [200,404];
+        var status = [200,304];
 
         xhr_panduan.onload = function(){
             if(status.indexOf(xhr_panduan.status)!=-1){
@@ -214,7 +214,7 @@ function insert(){
         var _phone = phone.value;
         var _mima = mima.value;
         var xhr_newuser = new XMLHttpRequest();
-        var status = [200,404];
+        var status = [200,304];
 
         xhr_newuser.onload = function(){
             if(status.indexOf(xhr_newuser.status)!=-1){

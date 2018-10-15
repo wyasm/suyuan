@@ -65,7 +65,7 @@ nav_t.onmouseout = function(){
     
      var tuijian_box = document.querySelector(".tuijian_box");
      var xhr_tuijian = new XMLHttpRequest();
-     var status = [200,404];
+     var status = [200,304];
      var res = "";
      xhr_tuijian.onload = function(){
         if(status.indexOf(xhr_tuijian.status)!=-1){
@@ -324,7 +324,7 @@ nav_t.onmouseout = function(){
 
 function changeshuliang(syid,c){
     var xhr_jian = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
 
     xhr_jian.onload = function(){
         if(status.indexOf(xhr_jian.status)!=-1){
@@ -371,7 +371,7 @@ function additem(ele){
     var syid=thisli.getAttribute("syid");
 
     var xhr_delete = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
 
     xhr_delete.onload = function(){
         if(status.indexOf(xhr_delete.status)!=-1){

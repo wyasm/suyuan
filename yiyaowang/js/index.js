@@ -87,7 +87,7 @@
 
 function changeshuliang(syid,c){
     var xhr_jian = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
 
     xhr_jian.onload = function(){
         if(status.indexOf(xhr_jian.status)!=-1){
@@ -133,7 +133,7 @@ function additem(ele){
     var syid=thisli.getAttribute("syid");
 
     var xhr_delete = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
 
     xhr_delete.onload = function(){
         if(status.indexOf(xhr_delete.status)!=-1){
@@ -200,7 +200,7 @@ function additem(ele){
 /*===============================秒杀========================================*/
     var miaoshagoods = document.querySelector(".miaoshagoods");
     var xhr = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
     xhr.onload = function(){
         if(status.indexOf(xhr.status)!=-1){
             var res = JSON.parse(xhr.responseText);
@@ -250,7 +250,7 @@ function additem(ele){
         var result ="";
 
         var xhr_jiating = new XMLHttpRequest();
-        var status = [200,404];
+        var status = [200,304];
         xhr_jiating.onload = function(){
             if(status.indexOf(xhr_jiating.status)!=-1){
                 var res_jt = JSON.parse(xhr_jiating.responseText);

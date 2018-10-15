@@ -13,7 +13,7 @@
     var zoomWrapperImage =  document.querySelector(".zoomWrapperImage")
 
     var xhr_jieshou = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
     var goodsarr;
 
     xhr_jieshou.onload = function(){
@@ -180,7 +180,7 @@ function updatedProducts(num){
     
      var tuijian_box = document.querySelector(".tuijian_box");
      var xhr_tuijian = new XMLHttpRequest();
-     var status = [200,404];
+     var status = [200,304];
      var res = "";
      xhr_tuijian.onload = function(){
         if(status.indexOf(xhr_tuijian.status)!=-1){
@@ -258,7 +258,7 @@ var jgoods;
 
 function jieshou(){
     var xhr_jcart = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
     xhr_jcart.onload = function(){
         if(status.indexOf(xhr_jcart.status)!=-1){
             if(xhr_jcart.responseText == 0){
@@ -296,7 +296,7 @@ function addcart(){
         
         jieshou();
         var xhr_insert = new XMLHttpRequest();
-        var status = [200,404];
+        var status = [200,304];
 
         xhr_insert.onload = function(){
             if(status.indexOf(xhr_insert.status)!=-1){
@@ -326,7 +326,7 @@ function addcart(){
         
         jieshou();
         var xhr_insert = new XMLHttpRequest();
-        var status = [200,404];
+        var status = [200,304];
 
         xhr_insert.onload = function(){
             if(status.indexOf(xhr_insert.status)!=-1){
@@ -435,7 +435,7 @@ addcart();
 
 function changeshuliang(syid,c){
     var xhr_jian = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
 
     xhr_jian.onload = function(){
         if(status.indexOf(xhr_jian.status)!=-1){
@@ -482,7 +482,7 @@ function additem(ele){
     var syid=thisli.getAttribute("syid");
 
     var xhr_delete = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
 
     xhr_delete.onload = function(){
         if(status.indexOf(xhr_delete.status)!=-1){

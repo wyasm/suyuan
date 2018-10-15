@@ -55,7 +55,7 @@ function checkAll(ele){
 // =========================修改数量===========================
 function changeshuliang(syid,c){
     var xhr_jian = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
 
     xhr_jian.onload = function(){
         if(status.indexOf(xhr_jian.status)!=-1){
@@ -104,7 +104,7 @@ function additem(ele){
 
 
         var xhr_delete = new XMLHttpRequest();
-        var status = [200,404];
+        var status = [200,304];
 
         xhr_delete.onload = function(){
             if(status.indexOf(xhr_delete.status)!=-1){
@@ -251,7 +251,7 @@ function additem(ele){
 // ==================接收原本购物车的数量===================
  
     var xhr_cart = new XMLHttpRequest();
-    var status = [200,404];
+    var status = [200,304];
     xhr_cart.onload = function(){
         if(status.indexOf(xhr_cart.status)!=-1){
             var data = JSON.parse(xhr_cart.responseText);

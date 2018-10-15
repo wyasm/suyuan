@@ -110,7 +110,7 @@
         if(_pass.trim()!="" && _user.trim()!=""){
             if(vcd_tatus.style.display == "inline-block"){
                 var xhr = new XMLHttpRequest();
-                var status =[200,404];
+                var status =[200,304];
                 xhr.onload = function(){
                     if(status.indexOf(xhr.status)!=-1){
                         var res = JSON.parse(xhr.responseText);
